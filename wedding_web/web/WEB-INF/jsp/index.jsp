@@ -227,7 +227,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img class="wedding_party_image" src="images/person.png"/>
+                                    <img class="wedding_party_image" src="images/dan_inkpen_scaled.png"/>
                                 </td>
                                 <td class="wedding_party_person">
                                     Dan Inkpen, Groomsman
