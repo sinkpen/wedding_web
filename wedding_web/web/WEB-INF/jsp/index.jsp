@@ -50,7 +50,7 @@
                                 <br />
                                 <table>
                                     <tr>
-                                        <td>Ceremony:</td>
+                                        <td class="time_title">Ceremony:</td>
                                         <td>6:30pm to 7:30pm</td>
                                     </tr>
                                     <tr>
@@ -65,7 +65,7 @@
                             </p>            
                         </td>
                         <td align="right">
-                            <iframe width="600" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=6+Cathedral+St.&amp;aq=&amp;sll=53.072622,-59.91084&amp;sspn=15.827837,43.286133&amp;ie=UTF8&amp;hq=&amp;hnear=6+Cathedral+St,+St+John's,+Division+No.+1,+Newfoundland+and+Labrador+A1C+1H3&amp;ll=47.565643,-52.707647&amp;spn=0.008658,0.021136&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.ca/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=6+Cathedral+St.&amp;aq=&amp;sll=53.072622,-59.91084&amp;sspn=15.827837,43.286133&amp;ie=UTF8&amp;hq=&amp;hnear=6+Cathedral+St,+St+John's,+Division+No.+1,+Newfoundland+and+Labrador+A1C+1H3&amp;ll=47.565643,-52.707647&amp;spn=0.008658,0.021136&amp;t=m&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                            <iframe width="640" height="480" frameborder="1" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=6+Cathedral+S&amp;aq=&amp;sll=47.567376,-52.710922&amp;sspn=0.011597,0.025191&amp;ie=UTF8&amp;hq=&amp;hnear=6+Cathedral+St,+St+John's,+Division+No.+1,+Newfoundland+and+Labrador+A1C+1H3&amp;t=m&amp;ll=47.567246,-52.707081&amp;spn=0.006949,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.ca/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=6+Cathedral+S&amp;aq=&amp;sll=47.567376,-52.710922&amp;sspn=0.011597,0.025191&amp;ie=UTF8&amp;hq=&amp;hnear=6+Cathedral+St,+St+John's,+Division+No.+1,+Newfoundland+and+Labrador+A1C+1H3&amp;t=m&amp;ll=47.567246,-52.707081&amp;spn=0.006949,0.013733&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
                         </td>
                     </tr>
                 </table>
@@ -131,12 +131,12 @@
                 <h1>Wedding Party</h1>
                 <table width="100%">
                     <tr>
-                        <td>
+                        <td valign="top">
                             <div class="wedding_party_header">Bridesmaids</div>
                             <table>
                                 <tr>
                                     <td>
-                                        <img class="wedding_party_image" src="images/person.png"/>
+                                        <img class="wedding_party_image" src="images/meaghan_andrews_scaled.png"/>
                                     </td>
                                     <td class="wedding_party_person">
                                         Meaghan Andrews, Maid of Honor
@@ -186,12 +186,13 @@
                                 </tr>
                             </table>
                         </td>
-                        <td>
-                             <div class="wedding_party_header">Groomsmen</div>
+                        <td valign="top">
+                        
+                        <div class="wedding_party_header">Groomsmen</div>
                         <table>
                             <tr>
                                 <td>
-                                    <img class="wedding_party_image" src="images/person.png"/>
+                                    <img class="wedding_party_image" src="images/david_button_scaled.png"/>
                                 </td>
                                 <td class="wedding_party_person">
                                     David Button, Best Man
@@ -211,7 +212,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img class="wedding_party_image" src="images/person.png"/>
+                                    <img class="wedding_party_image" src="images/scott_ryan_scaled.png"/>
                                 </td>
                                 <td class="wedding_party_person">
                                     Scott Ryan, Groomsman
@@ -221,7 +222,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img class="wedding_party_image" src="images/person.png"/>
+                                    <img class="wedding_party_image" src="images/herb_strickland_scaled.png"/>
                                 </td>
                                 <td class="wedding_party_person">
                                     Herb Strickland, Groomsman
@@ -231,7 +232,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img class="wedding_party_image" src="images/person.png"/>
+                                    <img class="wedding_party_image" src="images/matthew_andrews_scaled.png"/>
                                 </td>
                                 <td class="wedding_party_person">
                                     Matthew Andrews
