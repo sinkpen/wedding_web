@@ -28,7 +28,8 @@
             <!-- Welcome section -->
             <a name="welcome_anchor"></a> 
             <div> 
-                Leah Andrews and Steve Inkpen welcome you.
+                <h1>Welcome</h1>
+                <p>We are excited that you are a part of our wedding celebration! A tribute to our wedding, this site will provide details for the wedding (location, time, gift options, and wedding party). After the wedding, pictures of the event will be posted.</p>
             </div>
             
             <hr />            
@@ -37,7 +38,7 @@
             <a name="location_anchor"></a> 
             <div>
                 <h1>Location and Time</h1>
-                
+
                 <table width="100%">
                     <tr>
                         <td valign="top">
@@ -77,6 +78,9 @@
             <a name="accommodations_anchor"></a> 
             <div>
                 <h1>Accommodations</h1>
+                <p>There are many hotels in the area but below are a few suggestions which are very nice and close to the action.</p>
+                
+                <br>
                 
                 <table width="80%">
                     <tr class="space_under">
@@ -119,9 +123,30 @@
             <!-- Registry section -->
             <a name="registry_anchor"></a> 
             <div>
-                <h1>Registry</h1>
+                <h1>Registries</h1>
                 
+                <div class="registry">
+                    <table width="100%" padding="0" cellspacing="0">
+                        <tr class="registry_row">
+                            <td><img width="200px" src="images/amazon_ca_logo.jpg" /></td>
+                            <td width="100%" class="registry_cell_borders">Great online store with countless options</td>
+                            <td><a class="registry_link" href="http://www.amazon.ca/registry/wishlist/3V460J6U67CVB">Go to registry</a></td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div class="registry">
+                    <table width="100%" padding="0" cellspacing="0">
+                        <tr class="registry_row">
+                            <td><img width="200px" src="images/amazon_ca_logo.jpg" /></td>
+                            <td width="100%" class="registry_cell_borders">Great online store with countless options</td>
+                            <td><a class="registry_link" href="http://www.amazon.ca/registry/wishlist/3V460J6U67CVB">Go to registry</a></td>
+                        </tr>
+                    </table>
+                </div>                
             </div>
+            
+            <br />
             
             <hr />
             
