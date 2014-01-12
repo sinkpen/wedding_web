@@ -1,0 +1,5 @@
+Pages
+
+- time/date and location (main page)
+- form to indicate attendance (food)
+
