@@ -1,4 +1,3 @@
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
     "http://www.w3.org/TR/html4/loose.dtd">
@@ -24,6 +23,22 @@
             </div>
             </div>  
             <hr />
+
+            <!-- Navigation bar -->
+            <div>
+                <table width="100%">
+                    <tr>
+                        <td><a href="#welcome_anchor">Welcome</a></td>
+                        <td><a href="#location_anchor">Location and Time</a></td>
+                        <td><a href="#accommodations_anchor">Accommodations</a></td>
+                        <td><a href="#registry_anchor">Registries</a></td>
+                        <td><a href="#wedding_party_anchor">Wedding Party</a></td>
+                        <td><a href="/rsvp.htm">RSVP</a></td>
+                        <td><a href="#">Music Requests</a></td>
+                    </tr>
+                </table>
+            </div>        
+            <hr />                                        
             
             <!-- Welcome section -->
             <a name="welcome_anchor"></a> 
