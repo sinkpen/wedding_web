@@ -27,12 +27,21 @@ public class RsvpController
     public ModelAndView displaySelection(HttpServletRequest request)
     {
         String code = request.getParameter("code");
-        ModelAndView mav = new ModelAndView("rsvp_select");
+        ModelAndView mav = null;
         
         Invite i = lookupInvite(code);
         
-        mav.addObject("invite", i);
-        
+        if (i == null) 
+        {
+            mav = new ModelAndView("rsvp");
+            mav.addObject("errorMessage", "That code is invalid. Please try again.");
+        }
+        else
+        {
+            mav = new ModelAndView("rsvp_select");
+            mav.addObject("invite", i);
+        }
+
         return mav;
     }
     
@@ -46,6 +55,18 @@ public class RsvpController
         for (Person p : i.getPeople()) 
         {
             String val;
+            
+            if (p.isGoing() && p.isNotGoing()) {
+                mav = new ModelAndView("rsvp_select");
+                mav.addObject("errorMessage", "You can't be going and not going at the same time!");
+                return mav;
+            }
+            
+            if (!p.isGoing() && !p.isNotGoing()) {
+                mav = new ModelAndView("rsvp_select");
+                mav.addObject("errorMessage", "Are you going or aren't you? Make up your mind :)");
+                return mav;
+            }
             
             if (p.isGoing()) { isGoing = true; };
             if (p.isNotGoing()) { isGoing = false; };

@@ -138,3 +138,18 @@ tr.registry_row > td
 {
     vertical-align: top;
 }
+
+.rsvp_box
+{
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.error_message
+{
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

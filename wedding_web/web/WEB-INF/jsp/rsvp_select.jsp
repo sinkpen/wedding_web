@@ -11,19 +11,26 @@
         <link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <div class="rsvp_box">
         <h1>RSVP</h1>
+        
+        <div class="error_message">${errorMessage}</div>
+        
         <form:form action="rsvp_confirm.htm" method="POST" modelAttribute="invite">
             
             <c:forEach items="${invite.people}" var="person" varStatus="status">     
-            <fieldset>
+            <fieldset  style="padding: 10px 10px 10px 10px; margin-bottom: 10px">
                 <legend>${person.name}</legend>
                 <input type="hidden" name="people[${status.index}].name" value="${person.name}" />
-                <input type="checkbox" name="people[${status.index}].isGoing"/>Accept with Pleasure<br>
+                <div style="padding: 10px 10px 10px 0px;">
+                    <input type="checkbox" name="people[${status.index}].isGoing"/>Accept with Pleasure<br>
+                </div>
                 <input type="checkbox" name="people[${status.index}].isNotGoing"/>Decline with Regret
             </fieldset>
             </c:forEach>
             <br />
             <input type="submit" value="Submit" />
         </form:form>
+        </div>
     </body>
 </html>

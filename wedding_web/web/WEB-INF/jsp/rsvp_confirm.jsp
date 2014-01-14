@@ -8,8 +8,10 @@
         <link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>RSVP</h1>
-        
-        <p>Thank you for RSVPing.</p>
+        <div class="rsvp_box">
+            <h1>RSVP</h1>
+
+            <p>Thank you for RSVPing.</p>
+        </div>
     </body>
 </html>
