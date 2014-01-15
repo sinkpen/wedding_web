@@ -7,7 +7,7 @@
             <td><a href="/index.htm#registry_anchor">Registries</a></td>
             <td><a href="/index.htm#wedding_party_anchor">Wedding Party</a></td>
             <td><a href="/rsvp.htm">RSVP</a></td>
-            <td><a href="#">Music Requests</a></td>
+            <td><a href="/music.htm">Music Requests</a></td>
         </tr>
     </table>
 </div>

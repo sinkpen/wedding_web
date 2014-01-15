@@ -15,7 +15,11 @@
     <definition name="index" extends="base.definition">
         <put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
     </definition>
-    
+
+    <definition name="index2" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/jsp/music.jsp" />
+    </definition>
+        
     <definition name="rsvp" extends="base.definition">
         <put-attribute name="body" value="/WEB-INF/jsp/rsvp.jsp" />
     </definition>
