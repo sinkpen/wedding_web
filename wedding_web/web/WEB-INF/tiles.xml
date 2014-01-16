@@ -16,7 +16,7 @@
         <put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
     </definition>
 
-    <definition name="index2" extends="base.definition">
+    <definition name="music" extends="base.definition">
         <put-attribute name="body" value="/WEB-INF/jsp/music.jsp" />
     </definition>
         
