@@ -86,6 +86,10 @@ public class RsvpController
             sb.append(System.getProperty("line.separator"));
         }
         
+        sb.append(System.getProperty("line.separator"));
+        sb.append("Requests:");
+        sb.append(i.getRequests());
+        
         mav = new ModelAndView("rsvp_confirm");
         
         SendRsvpEmail(sb.toString());

@@ -18,7 +18,10 @@
         <input type="checkbox" name="people[${status.index}].isNotGoing"/>Decline with Regret
     </fieldset>
     </c:forEach>
-    <br />
+    
+    Special requests:<br />
+    <form:textarea rows="5" style="padding-top: 10px; margin-bottom:20px; width:100%;" path="requests" />
+    
     <input type="submit" value="Submit" />
 </form:form>
 </div>

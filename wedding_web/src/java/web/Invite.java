@@ -13,6 +13,7 @@ package web;
 public class Invite {
     private Person [] people;
     private String code;
+    private String requests;
     
     public Invite() {}
     
@@ -47,5 +48,19 @@ public class Invite {
      */
     public void setCode(String code) {
         this.code = code;
+    }
+
+    /**
+     * @return the requests
+     */
+    public String getRequests() {
+        return requests;
+    }
+
+    /**
+     * @param requests the requests to set
+     */
+    public void setRequests(String requests) {
+        this.requests = requests;
     }
 }
