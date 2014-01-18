@@ -137,7 +137,7 @@
                 <table>
                     <tr>
                         <td>
-                            <img class="wedding_party_image" src="images/meaghan_andrews_scaled.png"/>
+                            <img class="wedding_party_image" src="images/meaghan_andrews.png"/>
                         </td>
                         <td class="wedding_party_person">
                             Meaghan Andrews, Maid of Honor
@@ -147,7 +147,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <img class="wedding_party_image" src="images/person.png"/>
+                            <img class="wedding_party_image" src="images/christa_barry.png"/>
                         </td>
                         <td class="wedding_party_person">
                             Christa Barry, Bridesmaid
@@ -157,7 +157,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <img class="wedding_party_image" src="images/person.png"/>
+                            <img class="wedding_party_image" src="images/katy_king.png"/>
                         </td>
                         <td class="wedding_party_person">
                             Katy Ryan, Bridesmaid
@@ -167,7 +167,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <img class="wedding_party_image" src="images/person.png"/>
+                            <img class="wedding_party_image" src="images/danielle_ryder.png"/>
                         </td>
                         <td class="wedding_party_person">
                             Danielle Ryder, Bridesmaid
@@ -177,7 +177,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <img class="wedding_party_image" src="images/person.png"/>
+                            <img class="wedding_party_image" src="images/melissa_melee.png"/>
                         </td>
                         <td class="wedding_party_person">
                             Melissa Melee, Bridesmaid
@@ -193,7 +193,7 @@
             <table>
                 <tr>
                     <td>
-                        <img class="wedding_party_image" src="images/david_button_scaled.png"/>
+                        <img class="wedding_party_image" src="images/david_button.png"/>
                     </td>
                     <td class="wedding_party_person">
                         David Button, Best Man
@@ -203,7 +203,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <img class="wedding_party_image" src="images/dan_inkpen_scaled.png"/>
+                        <img class="wedding_party_image" src="images/dan_inkpen.png"/>
                     </td>
                     <td class="wedding_party_person">
                         Dan Inkpen, Groomsman
@@ -213,7 +213,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <img class="wedding_party_image" src="images/scott_ryan_scaled.png"/>
+                        <img class="wedding_party_image" src="images/scott_ryan.png"/>
                     </td>
                     <td class="wedding_party_person">
                         Scott Ryan, Groomsman
@@ -223,7 +223,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <img class="wedding_party_image" src="images/herb_strickland_scaled.png"/>
+                        <img class="wedding_party_image" src="images/herb_strickland.png"/>
                     </td>
                     <td class="wedding_party_person">
                         Herb Strickland, Groomsman
@@ -233,7 +233,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <img class="wedding_party_image" src="images/matthew_andrews_scaled.png"/>
+                        <img class="wedding_party_image" src="images/matthew_andrews.png"/>
                     </td>
                     <td class="wedding_party_person">
                         Matthew Andrews
