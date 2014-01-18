@@ -1,6 +1,13 @@
 package web;
 
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.file.FileSystems;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.List;
 import java.util.Properties;
+import java.util.Vector;
 import javax.mail.Message;
 import javax.mail.MessagingException;
 import javax.mail.Session;
@@ -29,7 +36,10 @@ public class RsvpController
         String code = request.getParameter("code");
         ModelAndView mav = null;
         
-        Invite i = lookupInvite(code);
+        String path = request.getServletContext().getRealPath("/guest_list_codes.txt");
+        List<Invite> list = loadInvites(path);
+        
+        Invite i = lookupInvite(list, code);
         
         if (i == null) 
         {
@@ -97,21 +107,60 @@ public class RsvpController
         return mav;
     }
     
-    private Invite lookupInvite(String code)
+    private Invite lookupInvite(List<Invite> list, String code)
     {
-        Invite [] invites = new Invite [] {
-            new Invite("0", new Person [] { 
-                new Person("Mr Claus"),
-                new Person("Mrs Claus")
-        })};
-
-        for (Invite i : invites) {
+        for (Invite i : list) {
             if (i.getCode().equalsIgnoreCase(code)) {
                 return i;
             }
         }
         
         return null;
+    }
+    
+    List<Invite> loadInvites(String filePath)
+    {
+        Path p = FileSystems.getDefault().getPath(filePath);
+        List<String> lines;
+        
+        try
+        {
+            lines = Files.readAllLines(p, Charset.defaultCharset());
+        }
+        catch (IOException ex)
+        {
+            return new Vector<>();
+        }
+        
+        List<Invite> invites = new Vector<>();
+        
+        for (String line : lines)
+        {
+            String code = "";
+            String [] people = new String[0];
+            String [] lineParts = line.split("\\|");
+            
+            if (lineParts.length > 0)
+            {
+                code = lineParts[0].trim();
+            }
+            
+            if (lineParts.length > 1)
+            {
+                people = lineParts[1].split(",");
+            }
+            
+            List<Person> list = new Vector<>();
+            for (String person : people)
+            {
+                list.add(new Person(person.trim()));
+            }
+            
+            Invite i = new Invite(code, list);
+            invites.add(i);
+        }
+        
+        return invites;
     }
     
     private void SendRsvpEmail(String text)

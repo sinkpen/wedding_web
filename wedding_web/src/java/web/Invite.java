@@ -6,18 +6,20 @@
 
 package web;
 
+import java.util.List;
+
 /**
  *
  * @author sinkpen
  */
 public class Invite {
-    private Person [] people;
+    private List<Person> people;
     private String code;
     private String requests;
     
     public Invite() {}
     
-    public Invite(String code, Person [] people) {
+    public Invite(String code, List<Person> people) {
         this.code = code;
         this.people = people;
     }
@@ -25,14 +27,14 @@ public class Invite {
     /**
      * @return the m_People
      */
-    public Person[] getPeople() {
+    public List<Person> getPeople() {
         return people;
     }
 
     /**
      * @param m_People the m_People to set
      */
-    public void setPeople(Person[] m_People) {
+    public void setPeople(List<Person> m_People) {
         this.people = m_People;
     }
 
