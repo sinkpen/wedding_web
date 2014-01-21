@@ -12,10 +12,15 @@
     <fieldset  style="padding: 10px 10px 10px 10px; margin-bottom: 10px">
         <legend>${person.name}</legend>
         <input type="hidden" name="people[${status.index}].name" value="${person.name}" />
-        <div style="padding: 10px 10px 10px 0px;">
-            <input type="checkbox" name="people[${status.index}].isGoing"/>Accept with Pleasure<br>
-        </div>
-        <input type="checkbox" name="people[${status.index}].isNotGoing"/>Decline with Regret
+        <label>
+            <input type="checkbox" name="people[${status.index}].isGoing"/>
+            Accept with Pleasure
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="people[${status.index}].isNotGoing"/>
+            Decline with Regret
+        </label>
     </fieldset>
     </c:forEach>
     

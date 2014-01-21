@@ -24,21 +24,6 @@
                     The Masonic Temple<br/>
                     6 Cathedral St.<br/>
                     St. John's, NL<br/>
-                    <br />
-                    <table>
-                        <tr>
-                            <td class="time_title">Ceremony:</td>
-                            <td>6:30pm to 7:30pm</td>
-                        </tr>
-                        <tr>
-                            <td>Cocktails:</td>
-                            <td>5:30pm to 6:30pm</td>
-                        </tr>
-                        <tr>
-                            <td>Reception:</td>
-                            <td>7:30pm to 11:30pm</td>
-                        </tr>
-                   </table>
                 </p>            
             </td>
             <td align="right">
@@ -93,36 +78,6 @@
         </tr>
     </table>
 </div>
-
-<hr />
-
-<!-- Registry section -->
-<a name="registry_anchor"></a> 
-<div>
-    <h1>Registries</h1>
-
-    <div class="registry">
-        <table width="100%" padding="0" cellspacing="0">
-            <tr class="registry_row">
-                <td><img width="200px" src="images/amazon_ca_logo.jpg" /></td>
-                <td width="100%" class="registry_cell_borders">Great online store with countless options</td>
-                <td><a class="registry_link" href="http://www.amazon.ca/registry/wishlist/3V460J6U67CVB">Go to registry</a></td>
-            </tr>
-        </table>
-    </div>
-
-    <div class="registry">
-        <table width="100%" padding="0" cellspacing="0">
-            <tr class="registry_row">
-                <td><img width="200px" src="images/amazon_ca_logo.jpg" /></td>
-                <td width="100%" class="registry_cell_borders">Great online store with countless options</td>
-                <td><a class="registry_link" href="http://www.amazon.ca/registry/wishlist/3V460J6U67CVB">Go to registry</a></td>
-            </tr>
-        </table>
-    </div>                
-</div>
-
-<br />
 
 <hr />
 
