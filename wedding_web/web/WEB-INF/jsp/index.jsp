@@ -24,7 +24,24 @@
                     The Masonic Temple<br/>
                     6 Cathedral St.<br/>
                     St. John's, NL<br/>
-                </p>            
+                </p>
+                
+                <br>
+                
+                <table cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td class="time_title">Ceremony:</td>
+                        <td>2:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Cocktails:</td>
+                        <td>5:30pm</td>
+                    </tr>
+                    <tr>
+                        <td>Reception:</td>
+                        <td>6:30pm</td>
+                    </tr>
+               </table>
             </td>
             <td align="right">
                 <iframe width="640" height="480" frameborder="1" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=6+Cathedral+S&amp;aq=&amp;sll=47.567376,-52.710922&amp;sspn=0.011597,0.025191&amp;ie=UTF8&amp;hq=&amp;hnear=6+Cathedral+St,+St+John's,+Division+No.+1,+Newfoundland+and+Labrador+A1C+1H3&amp;t=m&amp;ll=47.567246,-52.707081&amp;spn=0.006949,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.ca/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=6+Cathedral+S&amp;aq=&amp;sll=47.567376,-52.710922&amp;sspn=0.011597,0.025191&amp;ie=UTF8&amp;hq=&amp;hnear=6+Cathedral+St,+St+John's,+Division+No.+1,+Newfoundland+and+Labrador+A1C+1H3&amp;t=m&amp;ll=47.567246,-52.707081&amp;spn=0.006949,0.013733&amp;z=16&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
@@ -88,14 +105,13 @@
     <table width="100%">
         <tr>
             <td valign="top">
-                <div class="wedding_party_header">Bridesmaids</div>
                 <table>
                     <tr>
                         <td>
                             <img class="wedding_party_image" src="images/meaghan_andrews.png"/>
                         </td>
                         <td class="wedding_party_person">
-                            Meaghan Andrews, Maid of Honor
+                            <span class="wedding_party_name">Meaghan Andrews, Maid of Honor</span>
                             <br/>
                             Leah's older sister
                         </td>
@@ -105,9 +121,9 @@
                             <img class="wedding_party_image" src="images/christa_barry.png"/>
                         </td>
                         <td class="wedding_party_person">
-                            Christa Barry, Bridesmaid
+                            <span class="wedding_party_name">Christa Barry, Bridesmaid</span>
                             <br/>
-                            TBD
+                            Leah's university friend
                         </td>
                     </tr>
                     <tr>
@@ -115,9 +131,9 @@
                             <img class="wedding_party_image" src="images/katy_king.png"/>
                         </td>
                         <td class="wedding_party_person">
-                            Katy Ryan, Bridesmaid
+                            <span class="wedding_party_name">Katy Ryan, Bridesmaid</span>
                             <br/>
-                            TBD
+                            Leah's friend in Ottawa
                         </td>
                     </tr>
                     <tr>
@@ -125,9 +141,9 @@
                             <img class="wedding_party_image" src="images/danielle_ryder.png"/>
                         </td>
                         <td class="wedding_party_person">
-                            Danielle Ryder, Bridesmaid
+                            <span class="wedding_party_name">Danielle Ryder, Bridesmaid</span>
                             <br/>
-                            TBD
+                            Leah's friend since junior high school
                         </td>
                     </tr>
                     <tr>
@@ -135,23 +151,22 @@
                             <img class="wedding_party_image" src="images/melissa_melee.png"/>
                         </td>
                         <td class="wedding_party_person">
-                            Melissa Melee, Bridesmaid
+                            <span class="wedding_party_name">Melissa Melee, Bridesmaid</span>
                             <br/>
-                            TBD
+                            Leah's friend since grade school
                         </td>
                     </tr>
                 </table>
             </td>
             <td valign="top">
 
-            <div class="wedding_party_header">Groomsmen</div>
             <table>
                 <tr>
                     <td>
                         <img class="wedding_party_image" src="images/david_button.png"/>
                     </td>
                     <td class="wedding_party_person">
-                        David Button, Best Man
+                        <span class="wedding_party_name">David Button, Best Man</span>
                         <br/>
                         Steve's high-school friend
                     </td>
@@ -161,7 +176,7 @@
                         <img class="wedding_party_image" src="images/dan_inkpen.png"/>
                     </td>
                     <td class="wedding_party_person">
-                        Dan Inkpen, Groomsman
+                        <span class="wedding_party_name">Dan Inkpen, Groomsman</span>
                         <br/>
                         Steve's younger brother
                     </td>
@@ -171,9 +186,9 @@
                         <img class="wedding_party_image" src="images/scott_ryan.png"/>
                     </td>
                     <td class="wedding_party_person">
-                        Scott Ryan, Groomsman
+                        <span class="wedding_party_name">Scott Ryan, Groomsman</span>
                         <br/>
-                        Steve's Engineering friend
+                        Steve's university friend
                     </td>
                 </tr>
                 <tr>
@@ -181,9 +196,9 @@
                         <img class="wedding_party_image" src="images/herb_strickland.png"/>
                     </td>
                     <td class="wedding_party_person">
-                        Herb Strickland, Groomsman
+                        <span class="wedding_party_name">Herb Strickland, Groomsman</span>
                         <br/>
-                        Steve's Engineering friend
+                        Steve's university friend
                     </td>
                 </tr>
                 <tr>
@@ -191,7 +206,7 @@
                         <img class="wedding_party_image" src="images/matthew_andrews.png"/>
                     </td>
                     <td class="wedding_party_person">
-                        Matthew Andrews
+                        <span class="wedding_party_name">Matthew Andrews, Groomsman</span>
                         <br/>
                         Leah's older brother
                     </td>

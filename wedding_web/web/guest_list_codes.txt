@@ -4,7 +4,7 @@ W6W3|Matthew Andrews,Mark Lauzon
 W3Y3|Wayne Andrews,Ann Marie Andrews
 MENY|Fraser Inkpen,Elaine Inkpen
 UQUS|Dan Inkpen,Katie Subbotina
-DCA6|Scott Ryan, Katy Ryan
+DCA6|Scott Ryan,Katy Ryan
 DKJM|Herbert L. Strickland,Guest
 YY4V|Danielle Ryder,Craig Howlett
 X9AM|Melissa Melee,Steve Ralph
@@ -27,14 +27,13 @@ UEPM|Mary Hynes,Mr. Hynes
 57UA|Jeannette Doucey,Derreck Doucey
 GYZK|Helen Hooper,Wayne Hooper
 HXTN|Rose Clark,Guest
-G42V|Andrews Friends:	
 C9GL|Elaine Hamlyn,Paul Hamlyn
 GEUE|Annette Howlett,Derm Howlett
 C86Q|Gloria Taylor,Keith Taylor
 MAZZ|Don Stein,Cathy Stein
 2B5X|Denise Sparkes,Paul Macdonald
-JPZG|Thomas Lohu	
-E2FB|Matthew Mease	
+JPZG|Thomas Lohu
+E2FB|Matthew Mease
 GR29|Jerry Appleby,Ella Appleby
 SD7Y|Russel Inkpen,Sharon Inkpen
 YVYK|Susan Powell,Alvin Powell
@@ -53,19 +52,19 @@ SH4W|Glenys Neily,Randy Knapp
 VUY7|Jen Davis,Andrew Davis
 95KC|Char Staffa
 JJPN|Jill Hartry
-22Q8|Brian Hanes
+22Q8|Brian Haynes
 22H5|Steve Noseworthy,Shawna Srigley
 BWGY|Lewis Martin
 CYA4|Jeff Griffin,Michelle Kratky
-H8S5|Jeff Corbett	
+H8S5|Jeff Corbett
 5HUD|James Pikul
 SWXG|Tim Hopkins,Emily Hopkins
 NQ7R|Sheldon Andrews,Marie-Ann Hudson
 YSZV|Emilie Martin,Tommy Browne
 GSPQ|Susie Moore,Guest
 D4K5|Carolyn Oates,Guest
-RXKV|Justine,Guest
-6WXS|Ashleigh,Guest
+RXKV|Justine Barry,Guest
+6WXS|Ashleigh Colbourne,Guest
 4VUD|Gracie Watts,Steve Forward
 CPCS|Renee Hodder,Tim Smith
 W3LG|Feng Zhao	
@@ -80,7 +79,7 @@ WRXS|Chris Regular,Jenny Martin
 JCH7|Matt Adey,Jennifer Adey
 P59R|Justin Quinten,Jenna Osmond
 H52Z|Boyd Slade,Elizabeth Slade
-GMN4|Michael Rayment	
+GMN4|Michael Rayment
 PSRV|Greg Hearn
 W7QJ|
 NVGA|
