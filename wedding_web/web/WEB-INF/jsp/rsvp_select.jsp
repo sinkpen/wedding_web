@@ -13,12 +13,12 @@
         <legend>${person.name}</legend>
         <input type="hidden" name="people[${status.index}].name" value="${person.name}" />
         <label>
-            <input type="checkbox" name="people[${status.index}].isGoing"/>
-            Accept with Pleasure
+            <form:radiobutton path="people[${status.index}].going" value="true" />
+                Accept with Pleasure
         </label>
         <br>
         <label>
-            <input type="checkbox" name="people[${status.index}].isNotGoing"/>
+            <form:radiobutton path="people[${status.index}].going" value="false" />
             Decline with Regret
         </label>
     </fieldset>
