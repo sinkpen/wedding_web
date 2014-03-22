@@ -12,6 +12,7 @@
     </head>
     <body>
         <div id="wrapper">
+            <hr />
             <tiles:insertAttribute name="header" />
             <hr />
             <tiles:insertAttribute name="menu" />

@@ -17,8 +17,8 @@ body
     margin: 10px auto;
     text-align: left;
     border: 5px navy solid;
-    padding: 10px 10px 0px 10px;
-    background-color: white;
+    padding: 0px 10px 0px 10px;
+    background-color: whitesmoke;
 }
 
 #profile_container
@@ -38,7 +38,7 @@ body
 {
     z-index: 100;
     position: absolute;    
-    color: white;
+    color: silver;
     font-weight: bold;
 }
 
@@ -76,8 +76,8 @@ h1
     padding-top: 5px;
     padding-bottom: 10px;
     font-family: 'Tangerine', serif;
-    font-size: 40px;
-    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);  
+    font-size: 50px;
+    //text-shadow: 4px 4px 3px rgba(0,0,0,0.1);  
 }
 
 tr.space_under > td
@@ -139,6 +139,11 @@ tr.registry_row > td
     vertical-align: top;
 }
 
+.wedding_party_name
+{
+    font-size: 20px;
+}
+
 .rsvp_box
 {
     width: 500px;
@@ -152,4 +157,9 @@ tr.registry_row > td
     color: red;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.cb input
+{
+    margin-left: 20px;
 }

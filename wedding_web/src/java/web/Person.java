@@ -12,13 +12,13 @@ package web;
  */
 public class Person {
     private String name;
-    private boolean isGoing;
-    private boolean isNotGoing;
+    private boolean going;
     
     public Person() {}
     
     public Person(String name) {
         this.name = name;
+        this.going = true;
     }
 
     /**
@@ -39,27 +39,13 @@ public class Person {
      * @return the isGoing
      */
     public boolean isGoing() {
-        return isGoing;
+        return going;
     }
 
     /**
      * @param isGoing the isGoing to set
      */
-    public void setIsGoing(boolean isGoing) {
-        this.isGoing = isGoing;
-    }
-
-    /**
-     * @return the isNotGoing
-     */
-    public boolean isNotGoing() {
-        return isNotGoing;
-    }
-
-    /**
-     * @param isNotGoing the isNotGoing to set
-     */
-    public void setIsNotGoing(boolean isNotGoing) {
-        this.isNotGoing = isNotGoing;
+    public void setGoing(boolean going) {
+        this.going = going;
     }
 }
