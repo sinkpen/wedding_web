@@ -77,9 +77,13 @@ public class RsvpController
         sb.append("Requests:");
         sb.append(i.getRequests());
         
-        mav = new ModelAndView("rsvp_confirm");
-        
-        SendRsvpEmail(sb.toString());
+        try {
+            SendRsvpEmail(sb.toString());
+            mav = new ModelAndView("rsvp_confirm");
+        } catch (MessagingException ex) {
+            mav = new ModelAndView("rsvp_select");
+            mav.addObject("errorMessage", "There was a problem RSVPing. Please try again.");
+        }
         
         return mav;
     }
@@ -140,7 +144,7 @@ public class RsvpController
         return invites;
     }
     
-    private void SendRsvpEmail(String text)
+    private void SendRsvpEmail(String text) throws MessagingException
     {
         // Recipient's email ID needs to be mentioned.
         String to = "leaheandrews@gmail.com";
@@ -160,34 +164,27 @@ public class RsvpController
         // Get the default Session object.
         Session session = Session.getDefaultInstance(properties);
 
-        try
-        {
-            // Create a default MimeMessage object.
-            MimeMessage message = new MimeMessage(session);
+        // Create a default MimeMessage object.
+        MimeMessage message = new MimeMessage(session);
 
-            // Set From: header field of the header.
-            message.setFrom(new InternetAddress(from));
+        // Set From: header field of the header.
+        message.setFrom(new InternetAddress(from));
 
-            // Set To: header field of the header.
-            message.addRecipient(Message.RecipientType.TO,
-                                     new InternetAddress(to));
+        // Set To: header field of the header.
+        message.addRecipient(Message.RecipientType.TO,
+                                 new InternetAddress(to));
 
-            message.addRecipient(Message.RecipientType.TO,
-                                     new InternetAddress("steve@stepheninkpen.com"));
-            
-            // Set Subject: header field
-            message.setSubject("Wedding RSVP");
+        message.addRecipient(Message.RecipientType.TO,
+                                 new InternetAddress("steve@stepheninkpen.com"));
 
-            // Now set the actual message
-            message.setText(text);
+        // Set Subject: header field
+        message.setSubject("Wedding RSVP");
 
-            // Send message
-            Transport.send(message);
-            System.out.println("Sent message successfully....");
-        } 
-        catch (MessagingException mex)
-        {
-            mex.printStackTrace();
-        }
+        // Now set the actual message
+        message.setText(text);
+
+        // Send message
+        Transport.send(message);
+        System.out.println("Sent message successfully....");
     }
 }
