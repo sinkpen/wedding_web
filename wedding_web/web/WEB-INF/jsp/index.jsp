@@ -45,12 +45,18 @@
                         <td></td>
                     </tr>
                     <tr>
+                        <td><b>Reception:</b></td>
+                    </tr>
+                    <tr>
                         <td>Cocktails:</td>
                         <td>5:30pm</td>
                     </tr>
                     <tr>
-                        <td>Reception:</td>
+                        <td>Dinner:</td>
                         <td>6:30pm</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Dancing to follow!</td>
                     </tr>
                     <tr>
                         <td colspan="2"><img style="margin-top:20px" width="200" src="images/masonic_temple.png" /></td>
