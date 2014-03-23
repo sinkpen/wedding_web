@@ -4,9 +4,16 @@
     <h1>Welcome</h1>
     <p>We are excited that you are a part of our wedding celebration! A tribute 
        to our wedding, this site will provide details for the wedding 
-       (location, time, gift options, and wedding party). After the wedding, 
-       pictures of the event will be posted.
+       (location, time, RSVP, music requests, and the wedding party). After the 
+       wedding, pictures of the event will be posted.
     </p>
+    <br/>
+    <p>
+        If you have any questions please contact us at 
+        <a href="mailto:leaheandrews@gmail.com">leaheandrews@gmail.com</a>.
+    </p>
+    <br/>
+    <a style="font-size: biggest; font-weight:bold;" href="/rsvp.htm">RSVP Here!</a>
 </div>
 <br>
 <hr>
@@ -221,5 +228,5 @@
             </table>    
             </td>
         </tr>
-    </table>                
+    </table>
 </div>

@@ -1,7 +1,7 @@
 3LPN|Meaghan Andrews,Brad Janes
 PBH3|Matthew Andrews
 W6W3|Mark Lauzon
-W3Y3|Kourtney,Jeff Wall
+W3Y3|Kourtney Ward,Jeff Wall
 MENY|Hollie Pitcher,Chad Pitcher
 UQUS|Hannah Andrews,Liam Pitcher
 DCA6|Wayne Andrews,Ann Marie Andrews
@@ -66,7 +66,7 @@ RXKV|Jeffrey Corbett
 4VUD|Timothy Hopkins,Emily Hopkins
 CPCS|Sheldon Andrews,Marie-Anne Hudson
 W3LG|Emilie Martin,Tommy Browne
-V856|Susan Ryan
+V856|Susan Ryan,Guest
 93H9|Carolyn Oates,Guest
 CNY8|Justine Barry,Guest
 CKS7|Ashleigh Colbourne,Guest

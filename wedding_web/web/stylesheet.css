@@ -38,7 +38,7 @@ body
 {
     z-index: 100;
     position: absolute;    
-    color: silver;
+    color: white;
     font-weight: bold;
 }
 
@@ -53,12 +53,14 @@ body
 
 .profile_location
 {
-    top: 260px;
-    left: 700px;
+    /*top: 180px;*/
+    left: 30px;
     font-size: 20px;
     text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
     font-family: sans-serif;
-    text-align: right;
+    text-align: left;
+    position: absolute;
+    bottom: 50px;
 }
 
 hr
@@ -118,7 +120,7 @@ tr.registry_row > td
 
 .hotel_picture
 {
-    border: coral solid 5px;
+    border: coral solid 2px;
 }
 
 .wedding_party_image
